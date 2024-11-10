@@ -9,7 +9,7 @@ async function startTest() {
     try {
         // Fetching a random sentence from the backend
         //const response = await fetch("http://127.0.0.1:5000/get-sentence");
-        const response = await fetch("https://typing-text-speed.onrender.com");
+        const response = await fetch("https://typing-text-speed.onrender.com/get-sentence");
         const data = await response.json();
         sentence = data.sentence;
 
