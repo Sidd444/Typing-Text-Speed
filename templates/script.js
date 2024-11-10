@@ -14,7 +14,7 @@ async function startTest() {
         sentence = data.sentence;
 
         // Displaying the sentence and reset input
-        sentenceElement.textContent = sentence;
+        sentenceElement.textContent = "''"+sentence+"''";
         typingInput.value = "";
         typingInput.disabled = false;
         typingInput.focus();
